@@ -1,0 +1,16 @@
+Transaction Class
+
+Description: Represents a transaction with a type (in or out) and a list of currencies.
+Member Variables: type (string), currencyList (vector of Currency objects).
+Constructor: Default and copy constructor provided.
+Member Functions:
+    getType(): Returns the type of the transaction.
+    getCurrency(): Returns the list of currencies involved in the transaction.
+    setType(): Sets the type of the transaction (in or out).
+    setCurrency(): Sets the list of currencies for the transaction.
+    addCurrency(): Adds a currency to the transaction.
+    getTransactionSum(): Returns the total value of the transaction.
+Operators:
+    operator=: Assignment operator.
+    operator<<: Stream insertion operator for output.
+    operator>>: Stream extraction operator for input.

@@ -1,0 +1,15 @@
+Console Interface
+Console Class
+
+    Description: Provides a command-line interface for interacting with the service layer.
+    Member Functions:
+        add(): Adds a new product.
+        del(): Deletes a product.
+        update(): Updates a product.
+        printAll(): Prints all products.
+        help(): Displays available commands.
+        buyProduct(): Simulates buying a product with transactions.
+        showCurrency(): Displays available currencies.
+        showTransactions(): Displays transaction history.
+        addTransaction(): Adds a new transaction.
+        run(): Main function to run the console interface.

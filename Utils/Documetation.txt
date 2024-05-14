@@ -1,0 +1,18 @@
+Utils
+Exceptions
+
+    Description: Custom exception classes for handling validation errors.
+    Exceptions:
+        IdError: Thrown when the ID is not a positive integer.
+        ValueError: Thrown when the value is not a positive integer.
+        InvalidName: Thrown when the name is empty.
+
+Validators
+
+    Description: Utility class for validating input data.
+    Member Functions:
+        validateString(): Validates a non-empty string.
+        validateValue(): Validates a positive integer value.
+        validateStringToInt(): Validates if a string can be converted to an integer.
+        validateCurrency(): Validates currency values and quantities.
+        validateProduct(): Validates product name, price, and ID.

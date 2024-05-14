@@ -1,0 +1,24 @@
+Product Class
+Description
+
+The Product class represents a product with a name, price, and ID.
+Constructor
+
+    Product(): Default constructor, sets name to empty string, price and ID to 0.
+    Product(str name, int price, int id): Parameterized constructor that sets the name, price, and ID of the product.
+
+Member Functions
+
+    str getName() const: Returns the name of the product.
+    int getPrice() const: Returns the price of the product.
+    int getId() const: Returns the ID of the product.
+    void setName(str newName): Sets the name of the product.
+    void setPrice(int newPrice): Sets the price of the product.
+    void setId(int newId): Sets the ID of the product.
+
+Operators
+
+    Product& operator=(const Product& rProduct): Assignment operator.
+    bool operator==(const Product& rProduct): Equality operator.
+    std::ostream& operator<<(std::ostream& os, const Product& product): Stream insertion operator for output.
+    std::istream& operator>>(std::istream& is, Product& product): Stream extraction operator for input.

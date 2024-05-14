@@ -1,0 +1,24 @@
+Currency Class
+Description
+
+The Currency class represents a currency with a specific value and quantity.
+Constructor
+
+    Currency(): Default constructor, sets both value and quantity to 0.
+    Currency(int newValue, int newQuantity): Parameterized constructor that sets the value and quantity of the currency.
+
+Member Functions
+
+    int getValue() const: Returns the value of the currency.
+    int getQuantity() const: Returns the quantity of the currency.
+    void setValue(int newValue): Sets the value of the currency.
+    void setQuantity(int newQuantity): Sets the quantity of the currency.
+    int getSum() const: Returns the total value of the currency (value * quantity).
+
+Operators
+
+    Currency& operator=(const Currency& rCurrency): Assignment operator.
+    bool operator==(const Currency& rCurrency): Equality operator.
+    bool operator<(const Currency& rCurrency) const: Less than operator.
+    std::ostream& operator<<(std::ostream& os, const Currency& currency): Stream insertion operator for output.
+    std::istream& operator>>(std::istream& is, Currency& currency): Stream extraction operator for input.

@@ -1,0 +1,21 @@
+Repository Class
+Description
+
+The Repository class represents a generic repository for storing entities of a specific type.
+Member Functions
+
+    void add(Class entity): Adds an entity to the repository.
+    void del(int position): Deletes an entity from the repository at a given position.
+    void update(int position, Class newEntity): Updates an entity in the repository at a given position.
+    int find(Class entity) const: Finds the position of an entity in the repository.
+    Class getFromPosition(int position): Retrieves an entity from the repository at a given position.
+    std::vector<Class> getAll() const: Retrieves all entities from the repository.
+
+FileRepository Class
+Description
+
+The FileRepository class represents a repository that loads and unloads data from a file.
+Member Functions
+
+    void fileLoad(): Loads data from a file into the repository.
+    void fileUnload(): Unloads data from the repository into a file.

@@ -1,0 +1,9 @@
+Service Class
+Description
+
+The Service class represents the main service layer that interacts with products, currencies, and transactions.
+Member Functions
+
+    Functions for managing products, currencies, and transactions such as adding, deleting, updating, finding, and retrieving.
+    void unload(): Unloads data from repositories into files.
+    void load(): Loads data from files into repositories.
